@@ -2,6 +2,7 @@
 
 ## Descriptions
 - An EQ ported by Little Monk reworked. Powered by Dolby Digital Plus.
+- Only works with audio format PCM 16 bit. Doesn't work with Hi-Res.
 - Global type soundfx
 
 ## Requirements
