@@ -41,4 +41,4 @@
 - https://www.pling.com/p/1610004/
 
 
-           - Enjoy the Atmos 🎧 -
+           - Enjoy the Dolby 🎧 -
