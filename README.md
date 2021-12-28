@@ -5,7 +5,7 @@
 - Global type soundfx
 
 ## Requirements
-- Android 8 until 12
+- Android 4.2 until 12
 - Magisk installed
 
 ## Installation Guide
