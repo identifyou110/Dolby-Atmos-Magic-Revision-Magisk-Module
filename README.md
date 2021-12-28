@@ -1,4 +1,4 @@
-# Dolby Atmos MD2 Edition Magisk Module
+# Dolby Magic Revision Magisk Module
 
 ## Descriptions
 - An EQ ported by Little Monk reworked. Powered by Dolby Digital Plus.
