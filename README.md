@@ -1,4 +1,4 @@
-# Dolby Magic Revision Magisk Module
+# Dolby Atmos Magic Revision Magisk Module
 
 ## Descriptions
 - An EQ ported by Little Monk reworked. Powered by Dolby Digital Plus.
