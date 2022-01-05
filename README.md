@@ -9,8 +9,6 @@
 - Magisk installed
 
 ## Installation Guide
-- Remove another Dolby module with different name (except for Dolby Atmos ZTE 2019 Pro, or RC4, or RC1)
-- Reboot
 - Install via Magisk Manager or Recovery
 - See "Troubleshootings" section if you using any other audio mods
 - Reboot (reboot twice don't reflash, if you have Magisk sepolicy.rule bug)
