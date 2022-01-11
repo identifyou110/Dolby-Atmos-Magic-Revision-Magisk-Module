@@ -15,7 +15,7 @@
 - Read Optional to use permissive method if SE patch doesn't work for your device.
 
 ## Tested on
-- Android 11 arm64 DotOS ROM
+- Android 11 DotOS ROM
 
 ## Optionals
 - https://t.me/androidryukimodsdiscussions/2616
