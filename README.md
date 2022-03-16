@@ -11,17 +11,18 @@
 
 ## Installation Guide
 - Install via Magisk Manager or Recovery
-- See "Troubleshootings" bellow if you using any other audio mods
-- Reboot (reboot twice don't reflash, if you have Magisk sepolicy.rule bug)
-- Read Optionals to use permissive method if SE patch doesn't work for your device.
+- Reboot
 
 ## Tested on
 - Android 11 DotOS ROM
+- Android 12 AncientOS ROM
 
 ## Optionals
+- https://t.me/androidryukimodsdiscussions/60861
 - https://t.me/androidryukimodsdiscussions/2616
 
 ## Troubleshootings
+- https://t.me/androidryukimodsdiscussions/29836
 - https://t.me/androidryukimodsdiscussions/2617
 
 ## Bug Report
