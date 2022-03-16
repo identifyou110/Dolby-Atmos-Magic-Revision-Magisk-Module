@@ -3,7 +3,7 @@
 ## Descriptions
 - An EQ ported by Little Monk reworked
 - Powered by Dolby Digital Plus
-- Global type soundfx
+- Hybrid type soundfx (global type soundfx and also post process type soundfx but not deactivating any other global type soundfx)
 
 ## Requirements
 - Android 4.2 and up
