@@ -15,6 +15,18 @@ echo 0 > /proc/sys/kernel/panic_on_rcu_stall
 echo 0 > /proc/sys/kernel/panic_on_warn
 echo 0 > /proc/sys/vm/panic_on_oom
 
+# function
+restart_audioserver() {
+if [ "$API" -ge 24 ]; then
+  killall audioserver
+else
+  killall mediaserver
+fi
+}
+
+# restart
+restart_audioserver
+
 # wait
 sleep 20
 
@@ -32,6 +44,7 @@ if [ "`realpath /odm/etc`" != /vendor/odm/etc ] && [ "$FILE" ]; then
     umount $j
     mount -o bind $i $j
   done
+  restart_audioserver
 fi
 if [ ! -d $AML ] || [ -f $AML/disable ]; then
   DIR=$MODPATH/system
@@ -45,13 +58,7 @@ if [ -d /my_product/etc ] && [ "$FILE" ]; then
     umount /my_product$j
     mount -o bind $i /my_product$j
   done
-fi
-
-# restart
-if [ "$API" -ge 24 ]; then
-  killall audioserver
-else
-  killall mediaserver
+  restart_audioserver
 fi
 
 # wait
