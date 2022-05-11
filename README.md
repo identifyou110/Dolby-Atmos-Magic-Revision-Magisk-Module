@@ -5,6 +5,9 @@
 - Powered by Dolby Digital Plus
 - Global type soundfx
 
+## Screenshots
+- https://t.me/androidryukimodsdiscussions/78577
+
 ## Requirements
 - Android 4.2 and up
 - Magisk installed
