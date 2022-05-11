@@ -302,7 +302,7 @@ if getprop | grep -Eq "disable.dirac\]: \[1" || getprop | grep -Eq "disable.miso
   done
 fi
 if getprop | grep -Eq "disable.dirac\]: \[1"; then
-  APP=DiracAudioControlService
+  APP="Dirac DiracAudioControlService"
   for APPS in $APP; do
     hide_app
   done
@@ -424,6 +424,12 @@ if [ ! -d $DIR ]; then
   mv -f $MODPATH/system/vendor/lib* $MODPATH/system
   ui_print " "
 fi
+
+# settings
+FILE=$MODPATH/system/etc/dlb-default.xml
+ui_print "- Disable volume leveler for all default profiles"
+sed -i 's/dvle=\[1\]/dvle=\[0\]/g' $FILE
+ui_print " "
 
 # audio rotation
 PROP=`getprop audio.rotation`

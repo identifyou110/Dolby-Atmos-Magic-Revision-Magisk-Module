@@ -6,6 +6,9 @@ AML=/data/adb/modules/aml
 exec 2>$MODPATH/debug.log
 set -x
 
+# property
+resetprop dolby.monospeaker false
+
 # function
 restart_audioserver() {
 if [ "$API" -ge 24 ]; then

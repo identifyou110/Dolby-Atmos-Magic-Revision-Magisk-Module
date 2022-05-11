@@ -1,8 +1,8 @@
 id=Atmos
 name=Dolby Atmos Magic Revision
-version=v2.3
-versionCode=13
+version=v2.4-beta.1
+versionCode=14
 author=Rei Ryuki the Fixer
-description=An EQ ported by Little Monk reworked for any Android 4.2 and up. Powered by Dolby Digital Plus.
-
+description=An EQ global type soundfx ported by Little Monk reworked for any Android 4.2 and up. Powered by Dolby Digital Plus.
+# com.atmos classes source: apkmirror.com com.dolby DAX1-1.9.3_r1 1
 
