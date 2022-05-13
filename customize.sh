@@ -451,6 +451,14 @@ else
   sed -i 's/#u//g' $FILE
 fi
 
+# other
+FILE=$MODPATH/service.sh
+if getprop | grep -Eq "other.etc\]: \[1"; then
+  ui_print "- Activating other etc files bind mount..."
+  sed -i 's/#p//g' $FILE
+  ui_print " "
+fi
+
 # permission
 ui_print "- Setting permission..."
 DIR=`find $MODPATH/system/vendor -type d`
