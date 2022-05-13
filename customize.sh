@@ -432,9 +432,8 @@ sed -i 's/dvle=\[1\]/dvle=\[0\]/g' $FILE
 ui_print " "
 
 # audio rotation
-PROP=`getprop audio.rotation`
 FILE=$MODPATH/service.sh
-if [ "$PROP" == 1 ]; then
+if getprop | grep -Eq "audio.rotation\]: \[1"; then
   ui_print "- Activating ro.audio.monitorRotation=true"
   sed -i '1i\
 resetprop ro.audio.monitorRotation true' $FILE
@@ -442,9 +441,8 @@ resetprop ro.audio.monitorRotation true' $FILE
 fi
 
 # raw
-PROP=`getprop disable.raw`
 FILE=$MODPATH/.aml.sh
-if [ "$PROP" == 0 ]; then
+if getprop | grep -Eq "disable.raw\]: \[0"; then
   ui_print "- Not disabling Ultra Low Latency playback (RAW)"
   ui_print " "
 else
