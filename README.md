@@ -2,7 +2,7 @@
 
 ## Descriptions
 - An EQ ported by Little Monk reworked
-- Powered by Dolby Digital Plus
+- Powered by Dolby Surround (DS)
 - Global type soundfx
 
 ## Screenshots
