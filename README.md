@@ -19,6 +19,7 @@
 ## Tested on
 - Android 11 DotOS ROM
 - Android 12 AncientOS ROM
+- Android 12.1 Nusantara ROM
 
 ## Optionals
 - https://t.me/androidryukimodsdiscussions/60861
@@ -40,9 +41,10 @@
 ## Thanks for Donations
 - https://t.me/androidryukimodsdiscussions/2619
 - https://www.paypal.me/reiryuki
+- https://ko-fi.com/reiryuki
 
 ## Download
 - https://www.pling.com/p/1610004/
 
 
-           - Enjoy the Dolby 🎧 -
+           - Enjoy the Atmos 🎧 -
