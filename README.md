@@ -4,6 +4,7 @@
 - An EQ ported by Little Monk reworked
 - Powered by Dolby Surround (DS)
 - Global type soundfx
+- Sources: https://github.com/reiryuki/Dolby-Atmos-Magic-Revision-Magisk-Module/blob/main/module.prop
 
 ## Screenshots
 - https://t.me/androidryukimodsdiscussions/78577
